@@ -1,0 +1,41 @@
+name: yu_gi_oh
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ícones
+  cupertino_icons: ^1.0.2
+
+  # Networking e Cache
+  http: ^1.2.1
+  connectivity_plus: ^6.0.3
+  cached_network_image: ^3.3.1
+
+  # Banco de Dados Local
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+  # Gerenciamento de Estado
+  shared_preferences: ^2.2.3
+  provider: ^6.1.2 # <-- ADICIONADO PACOTE FALTANTE
+
+  # UI
+  infinite_scroll_pagination: ^4.0.0
+  awesome_dialog: ^3.2.0
+  percent_indicator: ^4.2.3 # Substituindo o 'primer progress bar'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
